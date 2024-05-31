@@ -1,0 +1,23 @@
+.bgcontainer {
+    height: 663px;
+    width: 100%;
+    background-image: url("/src/assets/homebg.png");
+
+}
+
+.leftcontainer {
+    /* width: 100%; */
+    margin: 8rem;
+
+}
+
+
+.headtext {
+
+    color: #000000;
+}
+
+.para {
+
+    color: #000000;
+}

@@ -1,0 +1,16 @@
+.navbar-external {
+    background-color: #ffff;
+    height: 90px;
+}
+
+#logo {
+    font-weight: 900;
+    font-size: 30px;
+    color: #000000;
+}
+
+.search {
+    margin-inline: 2rem;
+    border-radius: 2rem;
+
+}
