@@ -1,7 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .bgcontainer {
     height: 663px;
     width: 100%;
     background-image: url("/src/assets/homebg.png");
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -18,6 +25,118 @@
 }
 
 .para {
-
+    margin-top: 1rem;
     color: #000000;
+}
+
+.brands {
+    background-color: #000000;
+    height: 7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.brandsName {
+    color: #fff;
+    margin: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.brandsName:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.header {
+    text-align: center;
+    margin: 3rem;
+    font-weight: 700;
+
+}
+
+.button {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.card {
+    margin: 0.5rem;
+}
+
+.container2 {
+    background-color: #F0F0F0;
+    margin: 3rem;
+    height: 54rem;
+    border-radius: 2rem;
+
+}
+
+.header2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.c2a {
+    padding: 4rem;
+}
+
+.c2b {
+    padding: 0.5rem;
+}
+
+.DSrow {
+    margin: 2rem;
+}
+
+.DScol1 {
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10px;
+    background-image: url('/src/assets/DS1.png');
+    margin: 0.5rem;
+}
+
+.DScol2 {
+    width: 42rem;
+    height: 18rem;
+    border-radius: 10px;
+    background-image: url('/src/assets/DS2.png');
+    margin: 0.5rem;
+}
+
+.DScol4 {
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10px;
+    background-image: url('/src/assets/DS4.png');
+    margin: 0.5rem;
+
+}
+
+.DScol3 {
+    width: 42rem;
+    height: 18rem;
+    border-radius: 10px;
+    background-image: url('/src/assets/DS3.png');
+    margin: 0.5rem;
+}
+
+.DStext {
+    padding: 2rem;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.headerReview {
+    margin: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feedback {
+    margin: 1rem;
 }
