@@ -19,3 +19,7 @@
     border-radius: 2rem;
 
 }
+
+.logo {
+    cursor: pointer;
+}
